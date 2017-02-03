@@ -1,6 +1,6 @@
 // 2.1-2
 function insertionSort(arr, reverse) {
-    for(var j = 1; j < arr.length; j++) {
+    for (var j = 1; j < arr.length; j++) {
         var key = arr[j];
         var i = j - 1;
         function condition(i) {

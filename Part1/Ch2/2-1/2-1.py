@@ -22,7 +22,7 @@ def insertion_sort(lst, reverse = False):
 def search(lst, v):
     """
     >>> a = [5, 2, 4, 6, 1, 3]
-    >>> for i in range(1, 7):
+    >>> for i in range(1, 8):
     ...     print(search(a, i))
     4
     1
@@ -30,6 +30,7 @@ def search(lst, v):
     2
     0
     3
+    None
     """
     i = 0
     while i < len(lst) and lst[i] != v:
